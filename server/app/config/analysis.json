@@ -1,0 +1,33 @@
+{
+  "_note": "Thresholds for the delay analysis and the forecast. Re-read on every rebuild (POST /api/patterns/rebuild or a restart). Minutes everywhere.",
+  "on_time_minutes": 15,
+  "badge_window_days": 90,
+  "bootstrap_reps": 400,
+  "hotspot_top_n": 5,
+  "min_rows_per_station": 30,
+  "season": {
+    "_note": "A month is seasonal for a station when its mean added delay is this far above the station's median month.",
+    "min_excess_min": 8,
+    "min_rows": 30
+  },
+  "hour": {
+    "_note": "An hour of day is a problem window when its mean added delay (seasonal months excluded) is this far above the station's median hour.",
+    "min_excess_min": 10,
+    "min_rows": 30
+  },
+  "unusual": {
+    "_note": "Today's delay at a station is unusual when it beats the train's last-window p90 there by over_p90_min AND its median by over_median_min.",
+    "over_p90_min": 15,
+    "over_median_min": 30,
+    "min_runs": 10
+  },
+  "model": {
+    "_note": "Quantile gradient boosting for arrival delay. The last test_days of history are held out to score it against the persistence baseline.",
+    "test_days": 90,
+    "max_train_rows": 40000,
+    "max_iter": 150,
+    "learning_rate": 0.08,
+    "max_leaf_nodes": 31,
+    "seed": 7
+  }
+}

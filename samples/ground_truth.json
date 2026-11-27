@@ -1,0 +1,82 @@
+{
+  "_note": "Written by server/scripts/make_samples.py. Everything here was planted in simulated data; none of it describes real trains.",
+  "history": {
+    "start": "2025-11-01",
+    "end": "2026-11-25"
+  },
+  "live_dates": [
+    "2026-11-26",
+    "2026-11-27"
+  ],
+  "on_time_minutes": 15,
+  "fog": {
+    "months": [
+      12,
+      1
+    ],
+    "stations": [
+      "ALJN",
+      "TDL",
+      "ETW",
+      "CNB",
+      "PRYJ"
+    ],
+    "light_stations": [
+      "NDLS",
+      "GZB"
+    ],
+    "rate_min_per_100km": 25.0,
+    "worst_hours": "21:00-10:00"
+  },
+  "monsoon": {
+    "months": [
+      7,
+      8
+    ],
+    "stations": [
+      "PNVL",
+      "RN",
+      "KUDL",
+      "MAO",
+      "KAWR",
+      "UD"
+    ],
+    "rate_min_per_100km": 25.0
+  },
+  "junction_window": {
+    "station": "DDU",
+    "hours": [
+      18,
+      22
+    ],
+    "mean_added_min": 36
+  },
+  "top_added_station": "DDU",
+  "inherits_most": [
+    "BXR",
+    "ARA",
+    "PNBE",
+    "JSME",
+    "ASN",
+    "BWN",
+    "HWH",
+    "GAYA",
+    "DHN"
+  ],
+  "chronically_late_train": "13427",
+  "reliable_train": "22973",
+  "unusual_today": [
+    {
+      "train": "10147",
+      "station": "RN",
+      "run_date": "2026-11-27",
+      "added_min": 80
+    }
+  ],
+  "model": {
+    "p90_coverage_band": [
+      0.82,
+      0.96
+    ]
+  }
+}

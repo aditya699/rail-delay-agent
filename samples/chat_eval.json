@@ -1,0 +1,26 @@
+{
+  "_note": "Labelled passenger messages for `python -m app.cli eval`: the intent the chatbot should extract (station as the resolved code), or that it must ask a clarifying question instead of guessing.",
+  "cases": [
+    {"message": "22448 ka status kya hai?", "kind": "train_status", "train": "22448", "station": null, "months": [], "language": "hinglish"},
+    {"message": "Where is 10147 right now?", "kind": "train_status", "train": "10147", "station": null, "months": [], "language": "english"},
+    {"message": "13427 Patna kab pahunchegi?", "kind": "train_status", "train": "13427", "station": "PNBE", "months": [], "language": "hinglish"},
+    {"message": "Is 22447 running late to Kanpur?", "kind": "train_status", "train": "22447", "station": "CNB", "months": [], "language": "english"},
+    {"message": "meri train 14263 Allahabad kitne baje pahunchegi", "kind": "train_status", "train": "14263", "station": "PRYJ", "months": [], "language": "hinglish"},
+    {"message": "When will 22830 reach Mughalsarai?", "kind": "train_status", "train": "22830", "station": "DDU", "months": [], "language": "english"},
+    {"message": "16571 Goa kab tak aayegi?", "kind": "train_status", "train": "16571", "station": "MAO", "months": [], "language": "hinglish"},
+    {"message": "status of 22957 at CNB", "kind": "train_status", "train": "22957", "station": "CNB", "months": [], "language": "english", "clarify": true},
+    {"message": "How late is 13427 usually at Patna?", "kind": "train_history", "train": "13427", "station": "PNBE", "months": [], "language": "english"},
+    {"message": "22973 kitni late hoti hai aam taur pe?", "kind": "train_history", "train": "22973", "station": null, "months": [], "language": "hinglish"},
+    {"message": "Is 15219 usually on time at Buxar in winter?", "kind": "train_history", "train": "15219", "station": "BXR", "months": [12, 1], "language": "english"},
+    {"message": "Which stations cause the most delay in January?", "kind": "hotspots", "train": null, "station": null, "months": [1], "language": "english"},
+    {"message": "Monsoon mein Konkan route pe sabse zyada delay kahan hota hai?", "kind": "hotspots", "train": null, "station": null, "months": [7, 8], "language": "hinglish"},
+    {"message": "Sabse zyada delay kis station pe hota hai?", "kind": "hotspots", "train": null, "station": null, "months": [], "language": "hinglish"},
+    {"message": "which station causes most delay during fog", "kind": "hotspots", "train": null, "station": null, "months": [12, 1], "language": "english"},
+    {"message": "Is my train to Kanpur late?", "kind": "train_status", "train": null, "station": "CNB", "months": [], "language": "english", "clarify": true},
+    {"message": "12999 ka status batao", "kind": "train_status", "train": "12999", "station": null, "months": [], "language": "hinglish", "clarify": true},
+    {"message": "Purvai Superfast kahan hai?", "kind": "train_status", "train": null, "station": null, "months": [], "language": "hinglish", "clarify": true},
+    {"message": "Is 10147 late at Mumbai?", "kind": "train_status", "train": "10147", "station": "CSMT", "months": [], "language": "english"},
+    {"message": "Will 22958 be late at Mumbai?", "kind": "train_status", "train": "22958", "station": "BCT", "months": [], "language": "english"},
+    {"message": "hello", "kind": "help", "train": null, "station": null, "months": [], "language": "english", "clarify": true}
+  ]
+}

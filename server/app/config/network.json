@@ -1,0 +1,1181 @@
+{
+  "_note": "The demo network. Station codes and coordinates are real (approximate); every train, number, name and timetable is FICTIONAL. Edit this file to add stations or trains.",
+  "stations": [
+    {
+      "code": "NDLS",
+      "name": "New Delhi",
+      "lat": 28.6431,
+      "lon": 77.2197,
+      "aliases": [
+        "Delhi",
+        "Dilli",
+        "New Delhi"
+      ]
+    },
+    {
+      "code": "GZB",
+      "name": "Ghaziabad",
+      "lat": 28.6496,
+      "lon": 77.4302,
+      "aliases": []
+    },
+    {
+      "code": "ALJN",
+      "name": "Aligarh Jn",
+      "lat": 27.8889,
+      "lon": 78.068,
+      "aliases": [
+        "Aligarh"
+      ]
+    },
+    {
+      "code": "TDL",
+      "name": "Tundla Jn",
+      "lat": 27.2089,
+      "lon": 78.2365,
+      "aliases": [
+        "Tundla"
+      ]
+    },
+    {
+      "code": "ETW",
+      "name": "Etawah Jn",
+      "lat": 26.7795,
+      "lon": 79.025,
+      "aliases": [
+        "Etawah"
+      ]
+    },
+    {
+      "code": "CNB",
+      "name": "Kanpur Central",
+      "lat": 26.4534,
+      "lon": 80.3512,
+      "aliases": [
+        "Kanpur"
+      ]
+    },
+    {
+      "code": "PRYJ",
+      "name": "Prayagraj Jn",
+      "lat": 25.4446,
+      "lon": 81.8253,
+      "aliases": [
+        "Prayagraj",
+        "Allahabad",
+        "Prayag",
+        "Ilahabad"
+      ]
+    },
+    {
+      "code": "DDU",
+      "name": "Pt. Deen Dayal Upadhyaya Jn",
+      "lat": 25.2782,
+      "lon": 83.1186,
+      "aliases": [
+        "Deen Dayal Upadhyaya",
+        "Mughalsarai",
+        "Mughal Sarai",
+        "DDU Junction"
+      ]
+    },
+    {
+      "code": "BXR",
+      "name": "Buxar",
+      "lat": 25.57,
+      "lon": 83.98,
+      "aliases": []
+    },
+    {
+      "code": "ARA",
+      "name": "Ara Jn",
+      "lat": 25.56,
+      "lon": 84.663,
+      "aliases": [
+        "Arrah",
+        "Ara Junction"
+      ]
+    },
+    {
+      "code": "PNBE",
+      "name": "Patna Jn",
+      "lat": 25.603,
+      "lon": 85.137,
+      "aliases": [
+        "Patna"
+      ]
+    },
+    {
+      "code": "JSME",
+      "name": "Jasidih Jn",
+      "lat": 24.516,
+      "lon": 86.646,
+      "aliases": [
+        "Jasidih",
+        "Deoghar"
+      ]
+    },
+    {
+      "code": "GAYA",
+      "name": "Gaya Jn",
+      "lat": 24.803,
+      "lon": 84.999,
+      "aliases": [
+        "Gaya"
+      ]
+    },
+    {
+      "code": "DHN",
+      "name": "Dhanbad Jn",
+      "lat": 23.792,
+      "lon": 86.429,
+      "aliases": [
+        "Dhanbad"
+      ]
+    },
+    {
+      "code": "ASN",
+      "name": "Asansol Jn",
+      "lat": 23.689,
+      "lon": 86.975,
+      "aliases": [
+        "Asansol"
+      ]
+    },
+    {
+      "code": "BWN",
+      "name": "Barddhaman Jn",
+      "lat": 23.25,
+      "lon": 87.868,
+      "aliases": [
+        "Bardhaman",
+        "Burdwan",
+        "Barddhaman"
+      ]
+    },
+    {
+      "code": "HWH",
+      "name": "Howrah Jn",
+      "lat": 22.5838,
+      "lon": 88.3426,
+      "aliases": [
+        "Howrah",
+        "Kolkata",
+        "Calcutta"
+      ]
+    },
+    {
+      "code": "MTJ",
+      "name": "Mathura Jn",
+      "lat": 27.48,
+      "lon": 77.68,
+      "aliases": [
+        "Mathura"
+      ]
+    },
+    {
+      "code": "KOTA",
+      "name": "Kota Jn",
+      "lat": 25.223,
+      "lon": 75.881,
+      "aliases": [
+        "Kota"
+      ]
+    },
+    {
+      "code": "RTM",
+      "name": "Ratlam Jn",
+      "lat": 23.342,
+      "lon": 75.041,
+      "aliases": [
+        "Ratlam"
+      ]
+    },
+    {
+      "code": "BRC",
+      "name": "Vadodara Jn",
+      "lat": 22.311,
+      "lon": 73.181,
+      "aliases": [
+        "Vadodara",
+        "Baroda"
+      ]
+    },
+    {
+      "code": "ST",
+      "name": "Surat",
+      "lat": 21.205,
+      "lon": 72.841,
+      "aliases": []
+    },
+    {
+      "code": "BCT",
+      "name": "Mumbai Central",
+      "lat": 18.971,
+      "lon": 72.819,
+      "aliases": [
+        "Bombay Central"
+      ]
+    },
+    {
+      "code": "CSMT",
+      "name": "Mumbai CSMT",
+      "lat": 18.94,
+      "lon": 72.8355,
+      "aliases": [
+        "CSMT",
+        "CST",
+        "VT",
+        "Chhatrapati Shivaji Maharaj Terminus",
+        "Victoria Terminus"
+      ]
+    },
+    {
+      "code": "TNA",
+      "name": "Thane",
+      "lat": 19.186,
+      "lon": 72.976,
+      "aliases": []
+    },
+    {
+      "code": "PNVL",
+      "name": "Panvel",
+      "lat": 18.99,
+      "lon": 73.121,
+      "aliases": []
+    },
+    {
+      "code": "RN",
+      "name": "Ratnagiri",
+      "lat": 16.99,
+      "lon": 73.312,
+      "aliases": []
+    },
+    {
+      "code": "KUDL",
+      "name": "Kudal",
+      "lat": 16.01,
+      "lon": 73.688,
+      "aliases": []
+    },
+    {
+      "code": "MAO",
+      "name": "Madgaon Jn",
+      "lat": 15.274,
+      "lon": 73.969,
+      "aliases": [
+        "Madgaon",
+        "Margao",
+        "Goa"
+      ]
+    },
+    {
+      "code": "KAWR",
+      "name": "Karwar",
+      "lat": 14.83,
+      "lon": 74.16,
+      "aliases": []
+    },
+    {
+      "code": "UD",
+      "name": "Udupi",
+      "lat": 13.344,
+      "lon": 74.759,
+      "aliases": []
+    },
+    {
+      "code": "MAJN",
+      "name": "Mangaluru Jn",
+      "lat": 12.864,
+      "lon": 74.879,
+      "aliases": [
+        "Mangaluru",
+        "Mangalore"
+      ]
+    }
+  ],
+  "ambiguous_names": {
+    "Mumbai": [
+      "CSMT",
+      "BCT"
+    ],
+    "Bombay": [
+      "CSMT",
+      "BCT"
+    ]
+  },
+  "corridors": [
+    {
+      "id": "delhi_howrah",
+      "name": "Delhi - Howrah (via Patna)",
+      "stations": [
+        "NDLS",
+        "GZB",
+        "ALJN",
+        "TDL",
+        "ETW",
+        "CNB",
+        "PRYJ",
+        "DDU",
+        "BXR",
+        "ARA",
+        "PNBE",
+        "JSME",
+        "ASN",
+        "BWN",
+        "HWH"
+      ]
+    },
+    {
+      "id": "grand_chord",
+      "name": "Grand Chord (DDU - Gaya - Dhanbad)",
+      "stations": [
+        "DDU",
+        "GAYA",
+        "DHN",
+        "ASN"
+      ]
+    },
+    {
+      "id": "delhi_mumbai",
+      "name": "Delhi - Mumbai (western line)",
+      "stations": [
+        "NDLS",
+        "MTJ",
+        "KOTA",
+        "RTM",
+        "BRC",
+        "ST",
+        "BCT"
+      ]
+    },
+    {
+      "id": "konkan",
+      "name": "Mumbai - Konkan - Mangaluru",
+      "stations": [
+        "CSMT",
+        "TNA",
+        "PNVL",
+        "RN",
+        "KUDL",
+        "MAO",
+        "KAWR",
+        "UD",
+        "MAJN"
+      ]
+    }
+  ],
+  "trains": [
+    {
+      "number": "22447",
+      "name": "Purvai Superfast",
+      "kind": "superfast",
+      "from": "NDLS",
+      "to": "HWH",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "NDLS",
+          "dep": "16:55"
+        },
+        {
+          "station": "GZB",
+          "arr": "17:15",
+          "dep": "17:17"
+        },
+        {
+          "station": "ALJN",
+          "arr": "19:05",
+          "dep": "19:07"
+        },
+        {
+          "station": "TDL",
+          "arr": "20:25",
+          "dep": "20:27"
+        },
+        {
+          "station": "CNB",
+          "arr": "00:15",
+          "dep": "00:20"
+        },
+        {
+          "station": "PRYJ",
+          "arr": "03:30",
+          "dep": "03:35"
+        },
+        {
+          "station": "DDU",
+          "arr": "05:50",
+          "dep": "05:55"
+        },
+        {
+          "station": "BXR",
+          "arr": "07:30",
+          "dep": "07:32"
+        },
+        {
+          "station": "PNBE",
+          "arr": "09:30",
+          "dep": "09:35"
+        },
+        {
+          "station": "JSME",
+          "arr": "12:50",
+          "dep": "12:52"
+        },
+        {
+          "station": "ASN",
+          "arr": "14:30",
+          "dep": "14:35"
+        },
+        {
+          "station": "BWN",
+          "arr": "16:20",
+          "dep": "16:22"
+        },
+        {
+          "station": "HWH",
+          "arr": "17:50"
+        }
+      ]
+    },
+    {
+      "number": "22448",
+      "name": "Purvai Superfast",
+      "kind": "superfast",
+      "from": "HWH",
+      "to": "NDLS",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "HWH",
+          "dep": "08:40"
+        },
+        {
+          "station": "BWN",
+          "arr": "10:10",
+          "dep": "10:12"
+        },
+        {
+          "station": "ASN",
+          "arr": "11:55",
+          "dep": "12:00"
+        },
+        {
+          "station": "JSME",
+          "arr": "13:40",
+          "dep": "13:42"
+        },
+        {
+          "station": "PNBE",
+          "arr": "17:00",
+          "dep": "17:05"
+        },
+        {
+          "station": "BXR",
+          "arr": "19:05",
+          "dep": "19:07"
+        },
+        {
+          "station": "DDU",
+          "arr": "20:40",
+          "dep": "20:45"
+        },
+        {
+          "station": "PRYJ",
+          "arr": "23:00",
+          "dep": "23:05"
+        },
+        {
+          "station": "CNB",
+          "arr": "02:15",
+          "dep": "02:20"
+        },
+        {
+          "station": "TDL",
+          "arr": "06:10",
+          "dep": "06:12"
+        },
+        {
+          "station": "ALJN",
+          "arr": "07:30",
+          "dep": "07:32"
+        },
+        {
+          "station": "GZB",
+          "arr": "09:20",
+          "dep": "09:22"
+        },
+        {
+          "station": "NDLS",
+          "arr": "09:45"
+        }
+      ]
+    },
+    {
+      "number": "14263",
+      "name": "Doab Express",
+      "kind": "express",
+      "from": "NDLS",
+      "to": "PRYJ",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "NDLS",
+          "dep": "06:00"
+        },
+        {
+          "station": "GZB",
+          "arr": "06:25",
+          "dep": "06:27"
+        },
+        {
+          "station": "ALJN",
+          "arr": "08:25",
+          "dep": "08:27"
+        },
+        {
+          "station": "TDL",
+          "arr": "09:55",
+          "dep": "09:57"
+        },
+        {
+          "station": "ETW",
+          "arr": "11:40",
+          "dep": "11:42"
+        },
+        {
+          "station": "CNB",
+          "arr": "14:20",
+          "dep": "14:25"
+        },
+        {
+          "station": "PRYJ",
+          "arr": "17:55"
+        }
+      ]
+    },
+    {
+      "number": "14264",
+      "name": "Doab Express",
+      "kind": "express",
+      "from": "PRYJ",
+      "to": "NDLS",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "PRYJ",
+          "dep": "15:30"
+        },
+        {
+          "station": "CNB",
+          "arr": "19:00",
+          "dep": "19:05"
+        },
+        {
+          "station": "ETW",
+          "arr": "21:40",
+          "dep": "21:42"
+        },
+        {
+          "station": "TDL",
+          "arr": "23:25",
+          "dep": "23:27"
+        },
+        {
+          "station": "ALJN",
+          "arr": "00:55",
+          "dep": "00:57"
+        },
+        {
+          "station": "GZB",
+          "arr": "02:55",
+          "dep": "02:57"
+        },
+        {
+          "station": "NDLS",
+          "arr": "03:20"
+        }
+      ]
+    },
+    {
+      "number": "13427",
+      "name": "Sone Valley Mail",
+      "kind": "mail",
+      "from": "NDLS",
+      "to": "PNBE",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "NDLS",
+          "dep": "20:40"
+        },
+        {
+          "station": "GZB",
+          "arr": "21:10",
+          "dep": "21:12"
+        },
+        {
+          "station": "ALJN",
+          "arr": "23:40",
+          "dep": "23:42"
+        },
+        {
+          "station": "TDL",
+          "arr": "01:30",
+          "dep": "01:32"
+        },
+        {
+          "station": "ETW",
+          "arr": "03:40",
+          "dep": "03:42"
+        },
+        {
+          "station": "CNB",
+          "arr": "06:55",
+          "dep": "07:00"
+        },
+        {
+          "station": "PRYJ",
+          "arr": "11:20",
+          "dep": "11:25"
+        },
+        {
+          "station": "DDU",
+          "arr": "14:30",
+          "dep": "14:35"
+        },
+        {
+          "station": "BXR",
+          "arr": "16:45",
+          "dep": "16:47"
+        },
+        {
+          "station": "ARA",
+          "arr": "18:25",
+          "dep": "18:27"
+        },
+        {
+          "station": "PNBE",
+          "arr": "19:35"
+        }
+      ]
+    },
+    {
+      "number": "22829",
+      "name": "Grand Chord Superfast",
+      "kind": "superfast",
+      "from": "NDLS",
+      "to": "HWH",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "NDLS",
+          "dep": "13:15"
+        },
+        {
+          "station": "GZB",
+          "arr": "13:35",
+          "dep": "13:37"
+        },
+        {
+          "station": "ALJN",
+          "arr": "15:25",
+          "dep": "15:27"
+        },
+        {
+          "station": "TDL",
+          "arr": "16:50",
+          "dep": "16:52"
+        },
+        {
+          "station": "CNB",
+          "arr": "20:50",
+          "dep": "20:55"
+        },
+        {
+          "station": "PRYJ",
+          "arr": "00:10",
+          "dep": "00:15"
+        },
+        {
+          "station": "DDU",
+          "arr": "02:30",
+          "dep": "02:35"
+        },
+        {
+          "station": "GAYA",
+          "arr": "06:00",
+          "dep": "06:05"
+        },
+        {
+          "station": "DHN",
+          "arr": "09:15",
+          "dep": "09:20"
+        },
+        {
+          "station": "ASN",
+          "arr": "10:20",
+          "dep": "10:25"
+        },
+        {
+          "station": "BWN",
+          "arr": "12:15",
+          "dep": "12:17"
+        },
+        {
+          "station": "HWH",
+          "arr": "13:50"
+        }
+      ]
+    },
+    {
+      "number": "22830",
+      "name": "Grand Chord Superfast",
+      "kind": "superfast",
+      "from": "HWH",
+      "to": "NDLS",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "HWH",
+          "dep": "07:50"
+        },
+        {
+          "station": "BWN",
+          "arr": "09:25",
+          "dep": "09:27"
+        },
+        {
+          "station": "ASN",
+          "arr": "11:15",
+          "dep": "11:20"
+        },
+        {
+          "station": "DHN",
+          "arr": "12:20",
+          "dep": "12:25"
+        },
+        {
+          "station": "GAYA",
+          "arr": "15:35",
+          "dep": "15:40"
+        },
+        {
+          "station": "DDU",
+          "arr": "19:05",
+          "dep": "19:10"
+        },
+        {
+          "station": "PRYJ",
+          "arr": "21:25",
+          "dep": "21:30"
+        },
+        {
+          "station": "CNB",
+          "arr": "00:45",
+          "dep": "00:50"
+        },
+        {
+          "station": "TDL",
+          "arr": "04:45",
+          "dep": "04:47"
+        },
+        {
+          "station": "ALJN",
+          "arr": "06:10",
+          "dep": "06:12"
+        },
+        {
+          "station": "GZB",
+          "arr": "08:00",
+          "dep": "08:02"
+        },
+        {
+          "station": "NDLS",
+          "arr": "08:25"
+        }
+      ]
+    },
+    {
+      "number": "15219",
+      "name": "Ganga Shuttle Intercity",
+      "kind": "intercity",
+      "from": "PRYJ",
+      "to": "PNBE",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "PRYJ",
+          "dep": "16:00"
+        },
+        {
+          "station": "DDU",
+          "arr": "18:45",
+          "dep": "18:50"
+        },
+        {
+          "station": "BXR",
+          "arr": "20:45",
+          "dep": "20:47"
+        },
+        {
+          "station": "ARA",
+          "arr": "22:15",
+          "dep": "22:17"
+        },
+        {
+          "station": "PNBE",
+          "arr": "23:15"
+        }
+      ]
+    },
+    {
+      "number": "15220",
+      "name": "Ganga Shuttle Intercity",
+      "kind": "intercity",
+      "from": "PNBE",
+      "to": "PRYJ",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "PNBE",
+          "dep": "06:30"
+        },
+        {
+          "station": "ARA",
+          "arr": "07:30",
+          "dep": "07:32"
+        },
+        {
+          "station": "BXR",
+          "arr": "09:00",
+          "dep": "09:02"
+        },
+        {
+          "station": "DDU",
+          "arr": "11:00",
+          "dep": "11:05"
+        },
+        {
+          "station": "PRYJ",
+          "arr": "13:50"
+        }
+      ]
+    },
+    {
+      "number": "22957",
+      "name": "Mahi Night Superfast",
+      "kind": "superfast",
+      "from": "BCT",
+      "to": "NDLS",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "BCT",
+          "dep": "16:35"
+        },
+        {
+          "station": "ST",
+          "arr": "20:40",
+          "dep": "20:42"
+        },
+        {
+          "station": "BRC",
+          "arr": "22:50",
+          "dep": "22:55"
+        },
+        {
+          "station": "RTM",
+          "arr": "02:35",
+          "dep": "02:40"
+        },
+        {
+          "station": "KOTA",
+          "arr": "06:25",
+          "dep": "06:30"
+        },
+        {
+          "station": "MTJ",
+          "arr": "11:35",
+          "dep": "11:37"
+        },
+        {
+          "station": "NDLS",
+          "arr": "13:55"
+        }
+      ]
+    },
+    {
+      "number": "22958",
+      "name": "Mahi Night Superfast",
+      "kind": "superfast",
+      "from": "NDLS",
+      "to": "BCT",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "NDLS",
+          "dep": "16:45"
+        },
+        {
+          "station": "MTJ",
+          "arr": "19:00",
+          "dep": "19:02"
+        },
+        {
+          "station": "KOTA",
+          "arr": "00:05",
+          "dep": "00:10"
+        },
+        {
+          "station": "RTM",
+          "arr": "03:55",
+          "dep": "04:00"
+        },
+        {
+          "station": "BRC",
+          "arr": "07:40",
+          "dep": "07:45"
+        },
+        {
+          "station": "ST",
+          "arr": "09:50",
+          "dep": "09:52"
+        },
+        {
+          "station": "BCT",
+          "arr": "14:00"
+        }
+      ]
+    },
+    {
+      "number": "22973",
+      "name": "Tapi Chair Car Express",
+      "kind": "chair_car",
+      "from": "BCT",
+      "to": "BRC",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "BCT",
+          "dep": "06:25"
+        },
+        {
+          "station": "ST",
+          "arr": "10:10",
+          "dep": "10:12"
+        },
+        {
+          "station": "BRC",
+          "arr": "12:10"
+        }
+      ]
+    },
+    {
+      "number": "22974",
+      "name": "Tapi Chair Car Express",
+      "kind": "chair_car",
+      "from": "BRC",
+      "to": "BCT",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "BRC",
+          "dep": "15:45"
+        },
+        {
+          "station": "ST",
+          "arr": "17:40",
+          "dep": "17:42"
+        },
+        {
+          "station": "BCT",
+          "arr": "21:30"
+        }
+      ]
+    },
+    {
+      "number": "10147",
+      "name": "Sahyadri Coast Express",
+      "kind": "express",
+      "from": "CSMT",
+      "to": "MAO",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "CSMT",
+          "dep": "07:10"
+        },
+        {
+          "station": "TNA",
+          "arr": "07:50",
+          "dep": "07:52"
+        },
+        {
+          "station": "PNVL",
+          "arr": "08:25",
+          "dep": "08:27"
+        },
+        {
+          "station": "RN",
+          "arr": "13:25",
+          "dep": "13:27"
+        },
+        {
+          "station": "KUDL",
+          "arr": "16:00",
+          "dep": "16:02"
+        },
+        {
+          "station": "MAO",
+          "arr": "18:00"
+        }
+      ]
+    },
+    {
+      "number": "10148",
+      "name": "Sahyadri Coast Express",
+      "kind": "express",
+      "from": "MAO",
+      "to": "CSMT",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "MAO",
+          "dep": "08:30"
+        },
+        {
+          "station": "KUDL",
+          "arr": "10:25",
+          "dep": "10:27"
+        },
+        {
+          "station": "RN",
+          "arr": "13:00",
+          "dep": "13:02"
+        },
+        {
+          "station": "PNVL",
+          "arr": "18:00",
+          "dep": "18:02"
+        },
+        {
+          "station": "TNA",
+          "arr": "18:35",
+          "dep": "18:37"
+        },
+        {
+          "station": "CSMT",
+          "arr": "19:20"
+        }
+      ]
+    },
+    {
+      "number": "16571",
+      "name": "Tulunad Express",
+      "kind": "express",
+      "from": "CSMT",
+      "to": "MAJN",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "CSMT",
+          "dep": "22:00"
+        },
+        {
+          "station": "TNA",
+          "arr": "22:40",
+          "dep": "22:42"
+        },
+        {
+          "station": "PNVL",
+          "arr": "23:15",
+          "dep": "23:17"
+        },
+        {
+          "station": "RN",
+          "arr": "04:15",
+          "dep": "04:17"
+        },
+        {
+          "station": "KUDL",
+          "arr": "06:50",
+          "dep": "06:52"
+        },
+        {
+          "station": "MAO",
+          "arr": "08:50",
+          "dep": "08:55"
+        },
+        {
+          "station": "KAWR",
+          "arr": "10:05",
+          "dep": "10:07"
+        },
+        {
+          "station": "UD",
+          "arr": "14:05",
+          "dep": "14:07"
+        },
+        {
+          "station": "MAJN",
+          "arr": "15:20"
+        }
+      ]
+    },
+    {
+      "number": "16572",
+      "name": "Tulunad Express",
+      "kind": "express",
+      "from": "MAJN",
+      "to": "CSMT",
+      "aliases": [],
+      "stops": [
+        {
+          "station": "MAJN",
+          "dep": "13:30"
+        },
+        {
+          "station": "UD",
+          "arr": "14:45",
+          "dep": "14:47"
+        },
+        {
+          "station": "KAWR",
+          "arr": "18:45",
+          "dep": "18:47"
+        },
+        {
+          "station": "MAO",
+          "arr": "20:00",
+          "dep": "20:05"
+        },
+        {
+          "station": "KUDL",
+          "arr": "22:00",
+          "dep": "22:02"
+        },
+        {
+          "station": "RN",
+          "arr": "00:35",
+          "dep": "00:37"
+        },
+        {
+          "station": "PNVL",
+          "arr": "05:35",
+          "dep": "05:37"
+        },
+        {
+          "station": "TNA",
+          "arr": "06:10",
+          "dep": "06:12"
+        },
+        {
+          "station": "CSMT",
+          "arr": "06:55"
+        }
+      ]
+    }
+  ]
+}

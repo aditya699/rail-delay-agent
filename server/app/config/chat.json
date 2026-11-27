@@ -1,0 +1,13 @@
+{
+  "_note": "Example questions shown in the chat panel. Every one must parse in demo mode (tests check).",
+  "examples": [
+    "22448 ka status kya hai?",
+    "Where is 10147 right now?",
+    "13427 Patna kab pahunchegi?",
+    "How late is 13427 usually at Patna?",
+    "Is my train to Kanpur late?",
+    "Which stations cause the most delay in January?",
+    "Monsoon mein Konkan route pe sabse zyada delay kahan hota hai?",
+    "Sabse zyada delay kis station pe hota hai?"
+  ]
+}
